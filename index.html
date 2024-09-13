@@ -4,11 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sorteio Aleatório</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Sorteio de Número</h1>
-  <button id="sorteioBtn">Sortear Número</button>
-  <p id="resultado"></p>
+  <div id="container">
+    <h1>Sorteio de Número</h1>
+    <button id="sorteioBtn">Sortear Número</button>
+    <p id="resultado"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
